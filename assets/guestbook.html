@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KalburgiSrinivas_Kishan(AboutMe)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/guestbook.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header header-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                  <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>              
+                      </button>
+                    <a class="navbar-brand" href="/">Kishan Kalburgi Srinivas</a>
+                </div>
+                <div class="collapse navbar-collapse pull-right" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/AboutMe">About</a></li>
+                        <li><a href="/KnowYourPast">Know Your Past</a></li>
+                        <li class="active"><a href="/guestbook">Guest Book</a></li>
+                        <li><a href="/Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="fullscreen-bg">
+        <video loop muted autoplay class="fullscreen-bg__video">
+            <source src="../Mountain.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="row">
+        <div class="col-sm-offset-1 col-sm-10" >
+    <h1 class="guestbook">
+        Express Guestbook
+        <a href="/new-entry" class="btn btn-primary pull-right">
+            Write in the guestbook
+        </a>
+    </h1>
+    <% if (entries.length) { %>
+        <% entries.forEach(function(entry) { %>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="text-muted pull-right">
+                        <%= entry.published %>
+                    </div>
+                    <%= entry.title %>
+                </div>
+                <div class="panel-body">
+                    <%= entry.content %>
+                </div>
+            </div>
+            <% }) %>
+                <% } else { %>
+                    <span class="gbspan guestbook">No entries!</span>
+                    <a class="guestbook" href="/new-entry">Add one!</a>
+                    
+                    <% } %>
+        </div>
+    </div>
+                       
+    <footer class="contact-footer">
+        <div>
+            <div class="col-xs-6 text-center">
+                <a href="https://www.facebook.com/KS.KSHAN" target="_blank">
+              <img alt="img1" src="Images/facebook.png">
+          </a>
+                <a href="https://www.instagram.com/kishan__ks" target="_blank">
+              <img alt="img2" src="Images/instagram.png">
+          </a>
+                <a href="https://plus.google.com/u/0/+kishankskk" target="_blank">
+              <img alt="img3" src="Images/google-plus.png">
+          </a>
+                <a href="https://bitbucket.org/Kishan_Kalburgi/" target="_blank">
+              <img alt="img3" src="Images/bitbucket.png">
+          </a>
+                <a href="https://github.com/S530468" target="_blank">
+              <img alt="img3" src="Images/github.png">
+          </a>
+                <a href="https://www.linkedin.com/in/kishan-ks/" target="_blank">
+              <img alt="img3" src="Images/linkedin.png">
+          </a>
+                <a href="https://www.youtube.com/channel/UCdY0Lpb1sjSZzu8TWwDp6lw?view_as=subscriber" target="_blank">
+              <img alt="img3" src="Images/youtube.png">
+          </a>
+            </div>
+            <div class="col-xs-6 text-center">
+                <span class="guestbook" style="font-family: -webkit-body"><b>&copy;Developed by KK</b></span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

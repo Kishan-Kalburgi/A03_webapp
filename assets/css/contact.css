@@ -1,0 +1,56 @@
+nav.navbar.navbar-inverse {
+    margin-bottom: 0em;
+}
+
+.p-form {
+    margin-left: 1em;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 0.5em;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #0d213a;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 16px 3px #0d213a;
+}
+
+input[type=submit]:hover {
+    background-color: #0d213a;
+    box-shadow: 0 0 16px 3px black;
+}
+
+.contact-form {
+    width: 500px;
+}
+
+form.col-xs-9 {
+    width: auto;
+}
+
+.f-form{
+    font-family: Lucida Calligraphy;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.img-contact{
+    height: 230px;
+}
+
+.contact-footer{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}

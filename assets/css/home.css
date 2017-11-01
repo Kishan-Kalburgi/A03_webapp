@@ -1,0 +1,23 @@
+.img-circle-home {
+    height: 18em;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+.home-name {
+    font-family: Lucida Calligraphy;
+    font-size: xx-large;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000;
+    width: 10em;
+}
+
+.designation {
+    font-family: Lucida Calligraphy;
+    font-size: larger;
+}

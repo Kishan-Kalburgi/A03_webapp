@@ -1,0 +1,21 @@
+.f-form{
+    font-family: Lucida Calligraphy;
+    
+}
+
+input.btn.btn-info {
+    color: #fff;
+    background-color: #0d213a;
+    border-color: #313375;
+    box-shadow: 0 0 3px 0px black;
+}
+
+input[type=submit]:hover {
+    background-color: #0d213a;
+    box-shadow: 0 0 16px 3px black;
+}
+
+div#imageLoad {
+    text-align: center;
+    margin-top: 3em;
+}

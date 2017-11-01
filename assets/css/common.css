@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    background: url("../Images/webbackground.jpg") repeat;
+    background-size: 100em;
+    font-size: 17px;
+    color: #333639;
+    font-family: Monospace;
+}
+.header-container{
+    padding-left: inherit;
+}
+
+nav.navbar.navbar-inverse {
+    font-family: Lucida Calligraphy;
+    background-color: #0d213a;
+    border-color: #313375;
+    box-shadow: 0 0 20px 1px black;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+a.navbar-brand {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.custom-h2{
+    text-align: center;
+    font-family: Tw Cen MT;
+    font-family: Lucida Calligraphy;
+    text-decoration: underline;
+    margin-top: 3%;
+    margin-bottom: 1.3%;
+}
+
+.about-body{
+    font-family: Monotype Corsiva;
+    font-size: 130%;
+}
+
+.margin-left20{
+    margin: 0 9em 0 9em;
+}
+footer{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}body {
+    background-color: white;
+    background: url("../Images/webbackground.jpg") repeat;
+    background-size: 100em;
+    font-size: 17px;
+    color: #333639;
+    font-family: Monospace;
+}
+.header-container{
+    padding-left: inherit;
+}
+
+nav.navbar.navbar-inverse {
+    font-family: Lucida Calligraphy;
+    background-color: #0d213a;
+    border-color: #313375;
+    box-shadow: 0 0 20px 1px black;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+a.navbar-brand {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.custom-h2{
+    text-align: center;
+    font-family: Tw Cen MT;
+    font-family: Lucida Calligraphy;
+    text-decoration: underline;
+    margin-top: 3%;
+    margin-bottom: 1.3%;
+}
+
+.about-body{
+    font-family: Monotype Corsiva;
+    font-size: 130%;
+}
+
+.margin-left20{
+    margin: 0 9em 0 9em;
+}
+.footer{
+   background-color: #0d213a;
+}
