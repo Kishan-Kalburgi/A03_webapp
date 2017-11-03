@@ -42,7 +42,7 @@ app.post("/Contact", function (req, res) {
       from: 'Mail Gun <postmaster@sandbox9778769e39b74388bf8cd6a3c015d18a.mailgun.org>',
       to: req.body.emailid,
       subject: 'Greating from Kishan',
-      text: 'Hello ' + req.body.firstname + '\nThank you for visiting the website, I will get back to you asap'
+      text: 'Hello ' + req.body.firstname + ',' + '\n\nThank you for visiting the website, I will get back to you asap'
     };
      
     mailgun.messages().send(data, function (error, body) {
@@ -78,7 +78,7 @@ app.post("/new-entry", function (request, response) {
 app.use(function (request, response) {
     response.status(404).render("404")
 })
-//Listen for an application request on port 8081 & notify the developer
-app.listen(8081, function () {
-console.log('Guestbook app listening on http://127.0.0.1:8081/')
+//Listen for an application request on port 5000 & notify the developer
+app.listen(5000, function () {
+console.log('Guestbook app listening on http://127.0.0.1:5000/')
 })
